@@ -13,6 +13,8 @@ Before running the code, make sure you have the required libraries installed:
 
 ```bash
 !pip3 install torch torchvision torchaudio
+```
+```bash
 !pip install easyocr
 ```
 
