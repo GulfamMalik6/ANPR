@@ -1,15 +1,12 @@
-# Automatic Number Plate Detection
+# Text Extraction from Images in Any Language
 
-This project demonstrates automatic number plate detection using the EasyOCR library and OpenCV. It allows you to extract and visualize text information from images containing vehicle number plates.
+## Description
 
-1. Install the necessary libraries.
-2. Use EasyOCR to detect text in an image.
-3. Annotate detected text with bounding boxes and labels.
-4. Display the annotated image.
+This project is designed to extract text from images using the EasyOCR library and OpenCV. It takes an image as input, processes it, and then reads and displays all the text present in the image.
 
-## Prerequisites
+## Installation
 
-Before running the code, make sure you have the required libraries installed:
+To run this project, you'll need to install the following dependencies:
 
 ```bash
 !pip3 install torch torchvision torchaudio
@@ -23,9 +20,9 @@ Clone this repository to your local machine.
 
 Replace IMAGE_PATH in the code with the path to the image you want to process.
 
-Run the Python script to perform automatic number plate detection and visualization.
+Run the Python script to perform automatic text extraction and visualization.
 
-The code will display the image with detected number plates outlined and the extracted text printed to the console.
+The code will display the image with the extracted text printed to the console.
 
 ## Dependencies
  EasyOCR: Used for text recognition.
